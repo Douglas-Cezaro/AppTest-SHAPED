@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cezaro.douglas.app_test">
+    <uses-permission android:name="android.permission.CAMERA" />
    <application
-        android:label="app_test"
+        android:label="App Test"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
